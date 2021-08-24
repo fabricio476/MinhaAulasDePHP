@@ -3,6 +3,10 @@
 <head>
 	<meta charset="utf-8">
 	<title>Aula 2 -Sobre</title>
+
+
+	<!-- tag LINK é para lincar o arquivo css de formatação da pagina -->
+	<link rel="stylesheet" type="text/css" href="css/meuestilo.css"> 
 </head>
 <body>
 

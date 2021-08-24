@@ -1,0 +1,77 @@
+/*  comentario  */
+/*  Estilo de formatação das minhas paginas  */
+
+
+/*classe de estilo css - para fazer uma formatação especifica*/
+.texto{
+
+	font-family:"Segoe UI" ;  /*  a fonte que sera utilizada/ quando o nome tiver espaço colocar aspas  */
+	color: #27AE60; /*  cor que sera utilizada  */
+	font-size: 12px; /*  tamanho da fonte utilizada  */
+}
+
+/*  classe de estilo css  */
+.titulo{
+
+	font-family: Helvetica;
+	color: #16a085;
+	font-weight: bold; /*  formato da fonte(negrito) "bolder" mantem um negrito mais forte  */
+	font-size: 20px; /*  tamanho da fonte  */
+}
+
+/*  utilizar tags como identificadores de formatação  */
+/*  fazer uma formatação padrão no site */
+/*  formatada a tag html para ela iniciar com uma formatação geral */
+/*tudo que estiver dentro do bari e não tiver uma classe de formatação vai receber essa formatação*/
+body{
+
+	background-color: #ecf0f1;
+	font-size: 12px;
+	font-family: Verdana;
+	color: #2c3e50;
+}
+
+/*  formatando as tres tag de titulo // os textos só vão receber essas formatação se não tiver uma classe de formatação especificada */
+h1, h2, h3{
+
+  font-family: Helvetica; /*nome da fonte  */
+  color: #2980b9;
+  font-weight: bolder;
+}
+
+/*  essa formatação é para quando usar a tag UL dentro da tag NAV  */
+nav ul{
+ list-style: none; /* remove o estilo da lista(tira os pontinhos que tem antes do texto)  */
+ padding: 0px; /*  puxar para o canto da tela o menu que esta em linha  */
+ background-color: #DDDDDD; /* colocar um cor de fundo na linha que estão as estruturas */
+
+}
+
+/*  essa formatação é para quando usar a tag LI dentro da tag UL dentro da tag NAV  */
+nav ul li{
+	display: inline; /* colocar cada elemento(li) da tag UL um ao lado do outro */
+	padding: 10px; /* colocar um espaço entre cada elemneto */
+/*	background-color: #cccccc;  colocar um cor de fundo apenas atras das estruturas estrutura */
+}
+
+
+/*  essa sequencia de tag serve para ,manter especifico só qual estrutura pode ser formatada  */
+/*  quando seguir essa ordem de estrutura até a tag A (tag de adicionar links) */
+nav ul li a{
+      text-decoration: none; /*  remover a decoração do texto( retira o sublinhado)  */
+      color: #27ae60; /*  cor do link */
+}
+
+/*  só quando passar o mouse em cima  */
+nav ul li a:hover{
+ text-decoration: underline;
+}
+
+/*  cor do link quando visitado */
+nav ul li a:visited{
+  color: #8e44ad;  /*  cor do link visitado  */
+}
+
+
+
+
