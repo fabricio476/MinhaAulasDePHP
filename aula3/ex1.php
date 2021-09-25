@@ -23,7 +23,7 @@
   	 <p>
   	 	<!-- a tag LABEL e usada em conjunto com a tag INPUT para briar nome da caixa e a caixa de digitação -->
        <label>Nome:</label><br> <!-- rotulo(nome) da caixa(input)/ tag BR para manter a caixa em baixo -->
-       <input type="text" name="nome" maxlength="40" ><!-- criar a caixa(imput) de digitação/ parametro TYPE para dizer que tipo de conteudo sera escrito na caixa(tipo texto(letras ou string/ MAXLENGTH é o numero de caracteres que será posivel digitar dentro do INPUT)  o atributo NOME é para marcar o nome da INPUT -para poder localizalo) -->
+       <input type="text" name="nome" maxlength="40" required ><!-- criar a caixa(imput) de digitação/ parametro TYPE para dizer que tipo de conteudo sera escrito na caixa(tipo texto(letras ou string/ MAXLENGTH é o numero de caracteres que será posivel digitar dentro do INPUT)  o atributo NOME é para marcar o nome da INPUT -para poder localizalo) -->
   	 </p>
 
   	 <!-- cada parte do formulario esta dentro de um paragrafo-->

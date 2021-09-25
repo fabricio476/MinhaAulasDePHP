@@ -36,8 +36,6 @@
 
 		$percentual = $_POST['percentual'];
 
-
-
 		//processamento
 		$percentual_decimal = $percentual/100; //para saber a porcentagem que vai ser calculado (trasnsforma em 0.0)
 
@@ -46,10 +44,39 @@
 		$salario_final = $salario + $aumento; // soma o salario com o volar pencentual que foi calculado em cima do salario
 
            
+      echo "<h3>Resposta Ex 01:</h3>";
+
         // comando de printar na tela
 		echo "<h3> $nome, seu salário atual é R\$ $salario, você recebeu $percentual % de aumento (R\$ $aumento), e seu salário final é R\$ $salario_final </h3>";
+	}
+
+
+   // verificar se o formulario que contem o botão enviarEx2 foi enviado
+	if (isset($_GET['enviarEx2'])){
+
+     
+  $largura = $_GET['largura'];
+  $altura = $_GET['altura'];
+  $comprimento = $_GET['comprimento'];
+
+
+  //processamneto
+  $volume = $largura * $altura * $comprimento;
+
+  $volume = number_format($volume, 1); //formatar variavel para conter uma casa decimal
+
+   echo "<h3>Resposta Exercício 02:</h3>";
+
+   echo "<h3>Volume da caixa (1 x A x C = $largura x $altura x $comprimento) = $volume cm³";
+
 
 	}
+
+
+
+
+
+
 
 	 ?>
 

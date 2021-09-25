@@ -26,7 +26,7 @@ color: #34495e;
 /* classe para editar os atributos(LI) que estão dentro da tag UL(lista) que esta dentro da classe menu */
 .menu ul li{
     display: inline-block; /* mater os atributos em blocos em linha um ao lado do outro */
-    padding: 10px; /* almentar a margem */
+    padding: 5px; /* almentar a margem */
 }
 
 /* editar o a tag A(tag de link) que estiver na CLASSE MENU*/
