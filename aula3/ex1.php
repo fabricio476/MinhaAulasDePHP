@@ -19,11 +19,11 @@
    <h2>Dados do funcionario</h2>
 
   <!-- metodo POST envia os dados atraves do servidor / para a pagina RESPOSTAS.PHP-->
-  <form action="resposta.php" method="post"> <!-- Criar um formuladrio -->
+  <form action="respostas.php" method="post"> <!-- Criar um formuladrio -->
   	 <p>
   	 	<!-- a tag LABEL e usada em conjunto com a tag INPUT para briar nome da caixa e a caixa de digitação -->
        <label>Nome:</label><br> <!-- rotulo(nome) da caixa(input)/ tag BR para manter a caixa em baixo -->
-       <input type="text" name="nome" maxlength="5" ><!-- criar a caixa(imput) de digitação/ parametro TYPE para dizer que tipo de conteudo sera escrito na caixa(tipo texto(letras ou string/ MAXLENGTH é o numero de caracteres que será posivel digitar dentro do INPUT)  o atributo NOME é para marcar o nome da INPUT -para poder localizalo) -->
+       <input type="text" name="nome" maxlength="40" ><!-- criar a caixa(imput) de digitação/ parametro TYPE para dizer que tipo de conteudo sera escrito na caixa(tipo texto(letras ou string/ MAXLENGTH é o numero de caracteres que será posivel digitar dentro do INPUT)  o atributo NOME é para marcar o nome da INPUT -para poder localizalo) -->
   	 </p>
 
   	 <!-- cada parte do formulario esta dentro de um paragrafo-->
@@ -41,7 +41,7 @@
   	 </p>
 
   	 <p>
-  	 	<button type="submit"  nome="anviarEx1">Enviar</button>
+  	 	<button type="submit"  name="enviarEx1">Enviar</button>
   	 	<!-- TYPE é o tipo do botão(submit é ENVIAR) nome="anviarEx1" - NOME DO BOTÃO-->
   	 </p>
 
