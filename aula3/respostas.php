@@ -92,6 +92,25 @@
 	}
 
 
+	if (isset($_POST['enviarEx5'])) {
+
+		$bim1 = $_POST['bim1'];
+		$bim2 = $_POST['bim2'];
+		$bim3 = $_POST['bim3'];
+		$bim4 = $_POST['bim4'];
+
+		$media = ($bim1 + $bim2 + $bim3 + $bim4) / 4;
+
+		$media = number_format($media, 1);
+
+		echo "<h3>Resposta do exercício 05:</h3>";
+
+		echo "<h3>Sua média final é: $media</h3>";
+
+
+	}
+
+
 
 
 	 ?>
