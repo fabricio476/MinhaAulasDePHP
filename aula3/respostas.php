@@ -51,6 +51,7 @@
 	}
 
 
+
    // verificar se o formulario que contem o botão enviarEx2 foi enviado
 	if (isset($_GET['enviarEx2'])){
 
@@ -73,7 +74,22 @@
 	}
 
 
+   //verificar se o formulario que contem o botão enviarEx3 foi enviado
 
+	if(isset($_POST['enviarEx3'])){
+   
+   $ano = $_POST['anoNasc'];
+
+   $ano_atual = date("Y");  //armazena ano atual
+
+   $idade = $ano_atual - $ano; // calcula da idade
+
+   echo "<h3>Resposta do exercício 03:</h3>";
+
+   echo "<h3>Sua idade em $ano_atual é/será $idade anos</h3>";
+
+
+	}
 
 
 
