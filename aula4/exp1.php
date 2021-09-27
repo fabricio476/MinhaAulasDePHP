@@ -15,7 +15,12 @@
      <h3> Faça um algoritmo que leia o nome de uma pessoa e a sua altura. Leve em 
 consideração que a altura será lida em centímetros, por exemplo 177 e não 1,77. 
 Com base na altura deve ser dada uma mensagem dizendo se a pessoa é de 
-estatura “Baixa”, “Média” ou “Alta”.
+estatura “Baixa”, “Média” ou “Alta”. Para isso considere a seguinte tabela:
+
+[ De 1 até 159 cm Baixa ]
+[ De 160 a 172 cm Média ]
+[ Acima de 172 Alta  ]
+
     </h3>
 
     <!-- enviar o form via post para a mesma pagina -->
